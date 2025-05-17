@@ -266,7 +266,7 @@ char_map = {
 }
 
 replace_count = 0
-cc = OpenCC('s2t')  # 簡体を轉繁体に変換
+cc = OpenCC('s2t')  # 簡体を繁体に変換
 
 def replace_chars_in_text(text, mapping):
     global replace_count
